@@ -1,0 +1,54 @@
+html, body{
+    height: 100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#login{
+    width: 450px;
+    height: 300px;
+
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    margin: auto;
+
+    text-align: center;
+    padding: 10%;
+    background-color: transparent;
+}
+
+
+
+.textbox{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+#login-button{
+    width: 250px;
+    height: 35px;
+    background-color: darkgray;
+    font-weight: bold;
+}
+
+body{
+    background-image: url('./images/cards.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-error{
+    border-style: solid;
+    border-color: tomato;
+}
